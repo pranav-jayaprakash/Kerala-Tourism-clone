@@ -3,20 +3,20 @@
     
     
     background-color: rgba(0, 57, 115, 1);
-    height: 60px;
+    height: 120px;
     
 
 }
 
 .logo {
-    margin-left: 30px;
+    margin-left: 23%;
     margin-bottom: 10px;
 }
 
 .navheading {
     color: #eee;
     display: inline-block;
-    font-size: 8px;
+    font-size: 12px;
     margin-top: 0;
     padding-top: 0;
 }
@@ -24,7 +24,7 @@
 .langdiv {
     color: white;
     background-color: rgb(39, 22, 194);
-    font-size: 6px;
+    font-size: 10px;
     padding: 2px;
     display: inline-block;
 }
@@ -32,8 +32,22 @@
 .languages {
     color: white;
     background-color: black;
-    font-size: 6px;
+    font-size: 10px;
     padding: 2px;
     display: inline-block;
     margin-right: 2px;
+}
+
+ul , li {
+    display: inline-block;
+    font-size: 12px;
+    margin-right: 10px;
+    color: #eee;
+    font-weight: bold;
+
+    
+}
+.childtwo {
+    margin-top: 28px;
+    
 }
