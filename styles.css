@@ -13,4 +13,27 @@
     margin-bottom: 10px;
 }
 
+.navheading {
+    color: #eee;
+    display: inline-block;
+    font-size: 8px;
+    margin-top: 0;
+    padding-top: 0;
+}
 
+.langdiv {
+    color: white;
+    background-color: rgb(39, 22, 194);
+    font-size: 6px;
+    padding: 2px;
+    display: inline-block;
+}
+
+.languages {
+    color: white;
+    background-color: black;
+    font-size: 6px;
+    padding: 2px;
+    display: inline-block;
+    margin-right: 2px;
+}
