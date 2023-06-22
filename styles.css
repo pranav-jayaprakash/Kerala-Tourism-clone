@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
 .navbar {
     
     
@@ -323,32 +329,56 @@ ul , li {
 .f-des {
     display: block;
     font-size: 15px;
+    font-weight: 200;
     font-family: Arial, Helvetica, sans-serif;
     line-height: 20px;
     color: gray;
 }
 
 .f-des:hover {
-    display: block;
+    /* display: block;
     font-size: 15px;
     font-family: Arial, Helvetica, sans-serif;
-    line-height: 12px;
+    line-height: 12px; */
     text-decoration: underline;
     cursor: pointer;
 }
 
 .f-head {
     display: block;
-    font-size: 15px;
+    font-size: 20px;
+    font-weight: 100;
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(83, 82, 82);
+    color: #036;
 }
 
 
 .f-div {
     width: 13%;
     display: inline-block;
-    margin-left: 25px;
+    margin-left: 30px;
     margin-top: 28px;
     margin-bottom: 30px;
+}
+
+.subscribe {
+    width: 30%;
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 28px;
+    margin-bottom: 30px;
+}
+
+.sub-btm {
+    font-size: 15px;
+    text-align: center;
+}
+
+.searchbared {
+    height: 40px;
+    border: none;
+    width: 50%;
+    padding: 20px;
+    margin-right: 20px;
+    color: grey;
 }
